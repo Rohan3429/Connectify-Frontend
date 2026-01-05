@@ -54,7 +54,7 @@ Connectify is a social networking application for connecting people and sharing 
 - Export personal data (resume, reports)
 
 
-1. Clone the repo
+1. Clone the Frontend repo
 
    ```bash
    git clone https://github.com/Rohan3429/Connectify-Frontend.git
@@ -65,8 +65,15 @@ Connectify is a social networking application for connecting people and sharing 
 
    ```bash
    npm install
+   
+3. Clone the backend repo in same folder where frontend cloned
 
-3. Create a .env file based on .env.example and fill required variables (see below)
+    ```bash
+   git clone https://github.com/Rohan3429/Connectify-Backend.git
+   cd Connectify-Frontend
+   ```
+
+5. Create a .env file in the backend nad add paste below data
    ```
    MONGO_URI=mongodb://127.0.0.1:27017/connectify
    PORT=5000
