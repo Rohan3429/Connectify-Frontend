@@ -5,9 +5,8 @@ Connectify is a social networking application for connecting people and sharing 
 
 ## Tech stack
 
-Frontend: JavaScript — React + Vite, Tailwind CSS, react-router, axios, socket.io-client.
----
-Backend: JavaScript — Node.js + Express, MongoDB, socket.io, JWT, Cloudinary.
+- Frontend: JavaScript — React + Vite, Tailwind CSS, react-router, axios, socket.io-client.
+- Backend: JavaScript — Node.js + Express, MongoDB, socket.io, JWT, Cloudinary.
 
 ## Roles & Permissions
 
