@@ -1,28 +1,20 @@
 
 Connectify is a social networking application for connecting people and sharing posts. This README includes setup, development, and deployment instructions. Replace placeholders with project-specific details where noted.
 
-## Features
 
-- User authentication (login / register)
-- View and create posts
-- Follow/unfollow users
-- Real-time updates (if applicable)
-- Responsive UI
 
 ## Tech stack
 
-- JavaScript (primary)
-- [Replace with framework] (e.g., React, Next.js, Vite, Create React App)
-- Styling: [Replace with CSS / Tailwind / Styled-components]
+Frontend: JavaScript — React + Vite, Tailwind CSS, react-router, axios, socket.io-client.
+Backend: JavaScript — Node.js + Express, MongoDB, socket.io, JWT, Cloudinary.
 
 ## Roles & Permissions
 
 ### Admin
-- Create, update, and delete any user (students, faculty, proctors)
-- Assign or change user roles (professor, proctor, clubLead, student)
+- Create, update, and delete user ( faculty, proctors)
+- Assign or change user roles (professor, proctor)
 - View all users and system-wide data
-- Bulk import/export users and reports (XLSX / CSV)
-- Manage site configuration (environment variables, Cloudinary keys, JWT secrets)
+- Manage site configuration 
 
 ---
 
@@ -32,7 +24,7 @@ Connectify is a social networking application for connecting people and sharing 
 - Add and update student marks and attendance
 - View students assigned through proctor relationships
 - Export student reports (XLSX)
-- Participate in groups and real-time chat
+- Create in groups and real-time chat
 
 ---
 
@@ -41,7 +33,7 @@ Connectify is a social networking application for connecting people and sharing 
 - View and manage assigned students
 - Nominate and manage club leads
 - Add and update marks and attendance for assigned students
-- Participate in groups and real-time chat
+- Create in groups and real-time chat
 
 ---
 
@@ -50,7 +42,7 @@ Connectify is a social networking application for connecting people and sharing 
 - Post club-level announcements
 - Manage club members (invite/remove)
 - Share club resources (projects, files)
-- Participate in real-time group chat
+- Create in real-time group chat
 
 ---
 
@@ -87,5 +79,3 @@ Connectify is a social networking application for connecting people and sharing 
    JWT_EXPIRES_IN=7d
   ```
 ---
-
-Notes: This README contains placeholders for framework, scripts, and variables. If you want me to detect exact scripts and env variables by reading the repository files (package.json, src/), make the repo public or paste the package.json and key files. Otherwise I can update the README further if you provide the specific commands and env names.
