@@ -104,5 +104,6 @@ Connectify is a social networking application for connecting people and sharing 
     ```
 8. Password for professor is the employee id set by admin and for students its students enrollment number which is set by proctors
 
-# [Full Project Report](https://drive.google.com/file/d/1kKa6qMgJ5QYyDIwny1OIWQF5MuI-iQ4X/view?usp=drivesdk) 
+# Project Report
+[Report Link](https://drive.google.com/file/d/1kKa6qMgJ5QYyDIwny1OIWQF5MuI-iQ4X/view?usp=drivesdk) 
 ---
