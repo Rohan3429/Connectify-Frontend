@@ -85,17 +85,22 @@ Connectify is a social networking application for connecting people and sharing 
    
    JWT_SECRET=connectify_super_secret_key_123
    JWT_EXPIRES_IN=7d
-```
+   ```
 
 5. First run the backend
     ```bash
    node server.js
    ```
 
-5. Second Run the Frontend 
+6. Second Run the Frontend 
      ```bash
     npm run dev  
     ```
 
-
+7. default admin username and password
+    ```bash
+    admin@connectify.com
+    Admin@123
+    ```
+8. Password for professor is the employee id set by admin and for students its students enrollment number which is set by proctors 
 ---
