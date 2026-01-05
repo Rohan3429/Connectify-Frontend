@@ -29,7 +29,7 @@ Connectify is a social networking application for connecting people and sharing 
 ---
 
 ### Proctor
-- Create student accounts (individual or bulk)
+- Create student accounts 
 - View and manage assigned students
 - Nominate and manage club leads
 - Add and update marks and attendance for assigned students
