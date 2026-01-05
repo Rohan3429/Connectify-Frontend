@@ -75,7 +75,7 @@ Connectify is a social networking application for connecting people and sharing 
    ```
     
 4. Create a .env file in the backend nad add paste below data
-   ```
+   ```bash
    MONGO_URI=mongodb://127.0.0.1:27017/connectify
    PORT=5000
    CLIENT_URL=http://localhost:5173
@@ -85,18 +85,17 @@ Connectify is a social networking application for connecting people and sharing 
    
    JWT_SECRET=connectify_super_secret_key_123
    JWT_EXPIRES_IN=7d
-  ```
 ```
 
 5. First run the backend
-   ```bash
+    ```bash
    node server.js
    ```
 
 5. Second Run the Frontend 
- ```bash
-   npm run dev  
- ```
+     ```bash
+    npm run dev  
+    ```
 
 
 ---
